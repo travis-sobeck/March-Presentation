@@ -1,0 +1,11 @@
+Overall flow.  Google Form > Google Script > Azure Webhook/Runbook > Flow (or Logic Apps) > back to Azure Webhook/Runbook
+Note, flow is part of Office 365, need enterprise
+Start with Form
+Sheet backend
+Script (GoogleForm.js) > create trigger > on form Submit > Notify on failure > agree to stuff
+
+Azure > Resource Group
+> Automation Account
+> Runbook
+> Webhook (RB MUST be published)
+> Call Flow/Logic App (-ContentType 'application/json' very important)
