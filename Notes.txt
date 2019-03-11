@@ -8,4 +8,4 @@ Azure > Resource Group
 > Automation Account
 > Runbook
 > Webhook (RB MUST be published)
-> Call Flow/Logic App (-ContentType 'application/json' very important)
+> Call Flow/Logic App (-ContentType 'application/json' very importantping )
