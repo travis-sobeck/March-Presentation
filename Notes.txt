@@ -29,5 +29,6 @@ Powershell:
 Github:
 > go over Webhook, create in azure, add to github, test
 > ci/cd pipelines
+> build GH sync before azure built it
 > discuss Branch vs Fork
 > Fork, update, commit, PR
