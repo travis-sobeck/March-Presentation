@@ -1,4 +1,5 @@
-Background on how it all got started .... Starting with Google Form.
+Background on how it all got started .... Powerapps/flow vs LA
+Starting with Google Form. Then discuss alternatives.
 Overall flow.  Google Form > Google Script > Azure Webhook/Runbook > Flow (or Logic Apps) > back to Azure Webhook/Runbook
 Note, flow is part of Office 365, need enterprise license
 
@@ -18,9 +19,8 @@ Azure:
     --Call Flow/Logic App (-ContentType 'application/json' very importantping )
 
 Flow/Logic App:
-> Discuss difference,discuss powerapps (work/school only)
-> show LA
-> mention all the connectors and custom cunnectors
+> show LA and Flow
+> Discuss difference,discuss connector links, compare, mention all the connectors and custom cunnectors
 > Go back and show Self-Provision
 
 Powershell:
