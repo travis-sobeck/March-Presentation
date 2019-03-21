@@ -1,10 +1,13 @@
-Background on how it all got started .... Starting with Google Form.
+Background on how it all got started .... Powerapps/flow vs LA
+Starting with Google Form. Then discuss alternatives.
 Overall flow.  Google Form > Google Script > Azure Webhook/Runbook > Flow (or Logic Apps) > back to Azure Webhook/Runbook
 Note, flow is part of Office 365, need enterprise license
+
 Google:
-Start with Form
-Sheet backend
-Script (GoogleForm.js) > create trigger > on form Submit > Notify on failure > agree to stuff
+> Discuss alternatives
+> Start with Form
+> Sheet backend
+> Script (GoogleForm.js) > create trigger > on form Submit > Notify on failure > agree to stuff
 
 Azure:
 > Resource Group
@@ -18,6 +21,8 @@ Flow/Logic App:
 > Discuss difference, Note, flow is part of Office 365, need enterprise license
 > show 
 > rerturn to Azure
+=======
+
 
 Powershell:
 > Rerun job or kick off new Rb or flow
