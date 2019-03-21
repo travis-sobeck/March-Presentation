@@ -12,23 +12,21 @@ Google:
 Azure:
 > Resource Group
 > Automation Account
-> Webhook (RB MUST be published), walk through creating
-> Go through Runbook 
-    Discuss importance of jobID
-    Index good
-    --Call Flow/Logic App (-ContentType 'application/json' very importantping )
+> Runbook
+> Webhook (RB MUST be published) - create new, add to google and azure variable and powershell file
+> Call Flow/Logic App (-ContentType 'application/json' very importantping )
+> compare google sheet headers to input
 
 Flow/Logic App:
-> show LA and Flow
-> Discuss difference,discuss connector links, compare, mention all the connectors and custom cunnectors
-> Go back and show Self-Provision
+> Discuss difference, Note, flow is part of Office 365, need enterprise license
+> show 
+> rerturn to Azure
+=======
+
 
 Powershell:
-> Rerun job or kick off new
+> Rerun job or kick off new Rb or flow
 
-Github:
-> go over Webhook, create in azure, add to github, test
-> ci/cd pipelines
-> build GH sync before azure built it
-> discuss Branch vs Fork
-> Fork, update, commit, PR
+Troubleshoot
+
+if extra time discuss docker .. building APIs, different langs, chocolately, DSC

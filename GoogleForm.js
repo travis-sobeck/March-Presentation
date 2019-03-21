@@ -2,7 +2,6 @@ function submitToAzure(e){
     var s = SpreadsheetApp.getActiveSheet();
      var header = s.getRange(1,1,1,s.getLastColumn()).getValues()[0];
      var data = {};
-     data['email'] = e.values[1];
      for(i=0; i < header.length; i++)
      {
         data[header[i]]= e.values[i];
