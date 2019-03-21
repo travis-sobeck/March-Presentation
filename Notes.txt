@@ -10,14 +10,18 @@ Azure:
 > Resource Group
 > Automation Account
 > Runbook
-> Webhook (RB MUST be published)
+> Webhook (RB MUST be published) - create new, add to google and azure variable and powershell file
 > Call Flow/Logic App (-ContentType 'application/json' very importantping )
+> compare google sheet headers to input
 
 Flow/Logic App:
-Discuss difference
+> Discuss difference, Note, flow is part of Office 365, need enterprise license
+> show 
+> rerturn to Azure
 
 Powershell:
-> Rerun job or kick off new
+> Rerun job or kick off new Rb or flow
 
-Github:
-Fork, update, commit, PR
+Troubleshoot
+
+if extra time discuss docker .. building APIs, different langs, chocolately, DSC

@@ -77,7 +77,7 @@ try{
     $body = @{
         authorizersEmails = Get-AutomationVariable -Name 'authEmails'
         requester = $Inputs.requester
-        requesterEmail = $Inputs.email
+        requesterEmail = $Inputs.'Email Address'
         replayJobID = $jobID
         requesterMessage = "Your request is being worked on!"
         approvalMessage = "$($Inputs.requester) wants $($Inputs.'Pick one') and $($Inputs.'Pick many') and $($Inputs.'Pick from dropdown')"
