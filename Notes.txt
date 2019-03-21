@@ -21,8 +21,6 @@ Flow/Logic App:
 > Discuss difference, Note, flow is part of Office 365, need enterprise license
 > show 
 > rerturn to Azure
-=======
-
 
 Powershell:
 > Rerun job or kick off new Rb or flow
